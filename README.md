@@ -57,7 +57,7 @@ Alimentador-BD is a production-ready Python simulator that generates **realistic
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/alimentador-bd.git
+git clone https://github.com:Hycky/oltp-simulator.git
 cd alimentador-bd
 
 # Create virtual environment
