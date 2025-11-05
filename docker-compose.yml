@@ -1,0 +1,48 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: alimentador_postgres
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app123
+      POSTGRES_DB: teste_pacientes
+      POSTGRES_INITDB_ARGS: "-c timezone=UTC"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d teste_pacientes"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - alimentador_net
+
+  # Optional: PgAdmin for GUI database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: alimentador_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - alimentador_net
+    profiles:
+      - debug
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  alimentador_net:
+    driver: bridge
